@@ -2,18 +2,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <main>
-    <div>
-      <h1>Dictionary</h1>
-      <p>We can help you find the meaning of any word. Any word at all </p>
-      <div>
-        <input type="text" />
-        <button>Find</button>
+    <main className="h-screen p-10 flex flex-col items-center">
+    <div className="text-center space-y-4">
+      <h1 className="font-bold text-3xl">Dictionary</h1>
+      <p className="">let's help you find the meaning to your confusion</p>
+      <div className="space-x-6">
+        <input type="text" placeholder="Enter word here" className="rounded-md bg-slate-100 p-2 px-4 w-64 outline-1	outline-slate-200"/>
+        <button className="rounded-md bg-slate-700 p-2 px-6 text-white font-semibold">Find</button>
       </div>
     </div>
-    <div>
-      
-    </div>
-   </main>
+    <div className="m-10 p-6 bg-slate-100 w-full h-full rounded-md">Answer Box</div>
+  </main>
   );
 }
