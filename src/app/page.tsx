@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="h-screen p-10 flex flex-col items-center">
     <div className="text-center space-y-4">
-      <h1 className="font-bold text-3xl">Dictionary</h1>
-      <p className="">let's help you find the meaning to your confusion</p>
+      <h1 className="font-bold text-6xl">Dictionary</h1>
+      <p className="text-lg">let's help you find the meaning to your confusion</p>
       <div className="space-x-6">
         <input type="text" placeholder="Enter word here" className="rounded-md bg-slate-100 p-2 px-4 w-64 outline-1	outline-slate-200"/>
         <button className="rounded-md bg-slate-700 p-2 px-6 text-white font-semibold">Find</button>
